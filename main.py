@@ -109,7 +109,7 @@ def color_for_block(block_name):
     return colors.get(block_name, (1.0, 1.0, 1.0))
 
 
-nbt = nbtlib.load("escavadeira_enzo.schem")
+nbt = nbtlib.load("SEU_ARQUIVO_AQUI.schem")
 schematic = nbt["Schematic"]
 
 width = schematic["Width"]
